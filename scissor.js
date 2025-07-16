@@ -8,7 +8,10 @@ const restart=document.querySelector("#restart");
 
 //get user choice.
 const reset =()=>{
+    userscore=0;
+   compscore=0;
    userScorepara.innerText="0";
+
    compScorepara.innerText="0"; 
    msg.innerText="Play your move";
    msg.style.backgroundColor="#081b31";
